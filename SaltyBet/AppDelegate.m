@@ -14,6 +14,10 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    BetViewController *betVC = [[BetViewController alloc] initWithNibName:@"BetViewController" bundle:[NSBundle mainBundle]];
+    
+    self.window.rootViewController = betVC;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

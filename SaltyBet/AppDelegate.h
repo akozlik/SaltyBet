@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BetViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
